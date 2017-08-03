@@ -81,6 +81,7 @@ export default {
 
 h1, h2 {
   font-weight: normal;
+  // font-size: 0.27rem;
 }
 
 ul {
@@ -101,19 +102,19 @@ a {
     font-size: 16px;
   }
 }
-@media screen and (min-width:968px) and (max-width:1199px){
+@media screen and (max-width:1199px) and (min-width:649px){
+  html{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:648px) and (min-width:321px){
   html{
     font-size: 18px;
   }
 }
-@media screen and (min-width:648px) and (max-width:967px){
+@media screen and (max-width:320px){
   html{
     font-size: 20px;
-  }
-}
-@media screen and (min-width:319px) and (max-width:647px){
-  html{
-    font-size: 22px;
   }
 }
 </style>
